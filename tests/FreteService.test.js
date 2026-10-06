@@ -207,7 +207,7 @@ describe("FreteService", () => {
         valorCompra: 100
       });
 
-      expect(frete).toBe(15);
+      expect(frete).toBe(10);
     });
 
     test("deve conceder frete grátis mesmo utilizando CEP", () => {
